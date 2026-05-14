@@ -1,0 +1,66 @@
+{
+  "nama_proyek": "FinSmart AI Pipeline",
+  "versi": "1.0.0",
+  "ai_engineer": "Muhammad Syaiful",
+  "capstone_id": "CC26-PSU407",
+  "komponen": {
+    "1_klasifikasi_pengeluaran": {
+      "deskripsi": "Model Deep Learning untuk mengklasifikasikan kategori pengeluaran",
+      "model": "TensorFlow Functional API — Dense Neural Network",
+      "input": "Amount, PaymentMethod, Location, AccountType, TransactionType, DeviceUsed, MerchantType, LoyaltyProgram, Weekday, Month, TimeOfDay",
+      "output": "10 kelas kategori pengeluaran",
+      "custom": "FinSmartCallback (Custom Callback — Main Quest)",
+      "format_model": "finsmart_model.keras (TensorFlow SavedModel)",
+      "endpoint_api": "POST /classify"
+    },
+    "2_finbot_chatbot": {
+      "deskripsi": "Chatbot keuangan berbasis NLP untuk menjawab pertanyaan pengguna",
+      "model": "Hugging Face — facebook/bart-large-mnli (Zero-Shot Classification)",
+      "teknik": "Zero-Shot Classification + Intent-Response Mapping",
+      "input": "Pertanyaan pengguna dalam bahasa Indonesia",
+      "output": "Respons keuangan berdasarkan intent yang terdeteksi",
+      "jumlah_intent": 8,
+      "endpoint_api": "POST /finbot/chat"
+    },
+    "3_rekomendasi_anggaran": {
+      "deskripsi": "Sistem rekomendasi anggaran personal berbasis profil keuangan",
+      "metode": "Rule-Based Scoring + Threshold Analysis",
+      "input": "income_bulanan, tabungan_bulanan, pengeluaran_per_kategori, usia",
+      "output": "Rekomendasi anggaran per kategori + skor kesiapan investasi",
+      "acuan": "Metode 50/30/20 + Standar Literasi Keuangan OJK",
+      "endpoint_api": "POST /rekomendasi"
+    },
+    "4_api_serving": {
+      "deskripsi": "REST API untuk menyajikan semua model AI ke front-end",
+      "framework": "FastAPI + Uvicorn",
+      "endpoints": [
+        "GET  /              — health check",
+        "POST /classify      — klasifikasi pengeluaran",
+        "POST /finbot/chat   — chatbot FinBot",
+        "POST /rekomendasi   — rekomendasi anggaran",
+        "GET  /model-info    — info model",
+        "GET  /valid-values  — nilai valid tiap fitur",
+        "GET  /docs          — Swagger UI"
+      ],
+      "integrasi": "Dipanggil oleh back-end Node.js/Express via HTTP"
+    }
+  },
+  "alur_data": [
+    "1. Pengguna input transaksi di front-end (React.js)",
+    "2. Front-end kirim request ke back-end (Node.js/Express)",
+    "3. Back-end forward ke AI Service (FastAPI) via HTTP POST",
+    "4. FastAPI load model → preprocessing → inference",
+    "5. Hasil prediksi dikembalikan ke back-end → front-end",
+    "6. Dashboard menampilkan kategori + insight kepada pengguna"
+  ],
+  "file_artifacts": [
+    "finsmart_model.keras     — Model klasifikasi TF",
+    "encoders.pkl             — Label encoders",
+    "scaler.pkl               — StandardScaler",
+    "model_metadata.json      — Metadata & performa model",
+    "training_log.json        — Log training per epoch",
+    "finbot_chat_history.json — Contoh percakapan FinBot",
+    "contoh_rekomendasi.json  — Contoh output rekomendasi",
+    "main.py                  — FastAPI server"
+  ]
+}

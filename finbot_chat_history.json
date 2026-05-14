@@ -1,0 +1,32 @@
+[
+  {
+    "pertanyaan": "Gimana cara biar bisa nabung lebih banyak tiap bulan?",
+    "intent": "tidak_terdeteksi",
+    "confidence": 15.88,
+    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+  },
+  {
+    "pertanyaan": "Aku mau mulai investasi tapi masih pemula, harus mulai dari mana?",
+    "intent": "tidak_terdeteksi",
+    "confidence": 23.45,
+    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+  },
+  {
+    "pertanyaan": "Pengeluaran makanku terlalu besar, gimana cara nguranginnya?",
+    "intent": "cara mengurangi pengeluaran",
+    "confidence": 36.48,
+    "respons": " **Tips Mengurangi Pengeluaran:**\n1. Identifikasi kategori pengeluaran terbesar kamu dari dashboard FinSmart.\n2. Bedakan **kebutuhan** (harus) vs **keinginan** (bisa ditunda).\n3. Kurangi frekuensi makan di luar — masak sendiri bisa hemat 60%.\n4. Manfaatkan promo & cashback saat belanja online.\n5. Batalkan langganan yang jarang dipakai (streaming, app, dll).\n6. Pantau tren pengeluaranmu dengan grafik FinSmart! "
+  },
+  {
+    "pertanyaan": "Apa itu kategori pengeluaran di FinSmart?",
+    "intent": "tidak_terdeteksi",
+    "confidence": 25.36,
+    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+  },
+  {
+    "pertanyaan": "Bantu aku bikin target tabungan untuk liburan",
+    "intent": "tidak_terdeteksi",
+    "confidence": 19.78,
+    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+  }
+]
