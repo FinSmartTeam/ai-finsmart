@@ -1,32 +1,32 @@
 [
   {
     "pertanyaan": "Gimana cara biar bisa nabung lebih banyak tiap bulan?",
-    "intent": "tidak_terdeteksi",
+    "intent": "rekomendasi keuangan",
     "confidence": 15.88,
-    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+    "respons": "Rekomendasi Keuangan Personal:\nBerdasarkan data keuanganmu, FinSmart memberikan rekomendasi:\n- Analisis pola pengeluaran bulanan\n- Kategori mana yang paling banyak menguras anggaran\n- Rekomendasi batas anggaran per kategori\n\nMasuk ke menu Analisis dan Rekomendasi AI untuk melihat insight personalmu."
   },
   {
     "pertanyaan": "Aku mau mulai investasi tapi masih pemula, harus mulai dari mana?",
-    "intent": "tidak_terdeteksi",
+    "intent": "investasi untuk pemula",
     "confidence": 23.45,
-    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+    "respons": "Panduan Investasi untuk Pemula:\nSebelum investasi, pastikan sudah:\n- Punya dana darurat (3-6x pengeluaran bulanan)\n- Tidak punya hutang konsumtif\n- Tabungan rutin sudah berjalan\n\nPilihan investasi untuk pemula:\n- Reksa Dana Pasar Uang — risiko rendah, cocok untuk pemula\n- Deposito — aman, bunga pasti\n- Obligasi Negara (ORI/SBR) — dijamin pemerintah\n\nCek fitur Kesiapan Investasi di FinSmart untuk analisis profil keuanganmu."
   },
   {
     "pertanyaan": "Pengeluaran makanku terlalu besar, gimana cara nguranginnya?",
     "intent": "cara mengurangi pengeluaran",
     "confidence": 36.48,
-    "respons": " **Tips Mengurangi Pengeluaran:**\n1. Identifikasi kategori pengeluaran terbesar kamu dari dashboard FinSmart.\n2. Bedakan **kebutuhan** (harus) vs **keinginan** (bisa ditunda).\n3. Kurangi frekuensi makan di luar — masak sendiri bisa hemat 60%.\n4. Manfaatkan promo & cashback saat belanja online.\n5. Batalkan langganan yang jarang dipakai (streaming, app, dll).\n6. Pantau tren pengeluaranmu dengan grafik FinSmart! "
+    "respons": "Tips Mengurangi Pengeluaran:\n1. Identifikasi kategori pengeluaran terbesar dari dashboard FinSmart.\n2. Bedakan kebutuhan (harus) vs keinginan (bisa ditunda).\n3. Kurangi frekuensi makan di luar — masak sendiri bisa hemat 60%.\n4. Manfaatkan promo dan cashback saat belanja online.\n5. Batalkan langganan yang jarang dipakai."
   },
   {
     "pertanyaan": "Apa itu kategori pengeluaran di FinSmart?",
-    "intent": "tidak_terdeteksi",
+    "intent": "kategori pengeluaran",
     "confidence": 25.36,
-    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+    "respons": "Kategori Pengeluaran di FinSmart:\nFinSmart mengklasifikasikan transaksi ke 10 kategori:\n1. Food | 2. Grocery | 3. Transport | 4. Entertainment | 5. Healthcare\n6. Electronics | 7. Online Shopping | 8. Travel | 9. Clothing | 10. Bills\n\nKategori ditentukan otomatis oleh AI saat kamu input transaksi."
   },
   {
     "pertanyaan": "Bantu aku bikin target tabungan untuk liburan",
-    "intent": "tidak_terdeteksi",
+    "intent": "target tabungan",
     "confidence": 19.78,
-    "respons": " Maaf, saya belum bisa menjawab pertanyaan itu secara spesifik.\nKamu bisa tanya saya tentang:\n• Tips menabung\n• Cara mengatur anggaran\n• Kategori pengeluaran\n• Investasi untuk pemula\n• Cara mengurangi pengeluaran\n• Target tabungan\n"
+    "respons": "Cara Menetapkan Target Tabungan:\n1. Tentukan tujuan spesifik: liburan, DP rumah, dana darurat, dll.\n2. Hitung nominal yang dibutuhkan dan tenggat waktunya.\n3. Bagi dengan jumlah bulan untuk mendapatkan target bulanan.\n4. Set target di fitur Sistem Anggaran FinSmart.\n5. FinSmart akan memberi notifikasi jika kamu on-track."
   }
 ]

@@ -16,38 +16,27 @@
     "Travel"
   ],
   "input_features": [
-    "PaymentMethod",
-    "Location",
-    "AccountType",
-    "TransactionType",
-    "DeviceUsed",
-    "MerchantType",
-    "LoyaltyProgram",
-    "Weekday",
+    "Amount",
+    "Payment_Method",
+    "Week_Day",
     "Month",
-    "TimeOfDay",
+    "Time_Of_Day",
     "MerchantName",
-    "Amount"
+    "Day"
   ],
-  "input_dim": 12,
-  "framework": "XGBoost + TensorFlow (Dual Model)",
-  "model_dl_path": "finsmart_model.keras",
-  "model_xgb_path": "xgb_model.pkl",
-  "encoder_path": "encoders.pkl",
-  "scaler_path": "scaler.pkl",
+  "input_dim": 7,
+  "framework": "TensorFlow 2.20.0 + XGBoost 3.2.0",
   "performa": {
     "deep_learning": {
-      "test_accuracy": 0.84,
-      "test_loss": 0.3824,
-      "arsitektur": "TF Functional API + Skip Connection + Custom Callback"
+      "test_accuracy": 0.5133,
+      "test_loss": 1.2959
     },
     "xgboost_final": {
-      "test_accuracy": 0.9983,
+      "test_accuracy": 1.0,
       "train_accuracy": 1.0,
-      "gap_overfit": 0.0017,
-      "n_estimators": 500,
-      "status": "Valid - tidak overfit"
+      "gap_overfit": 0.0
     }
   },
-  "side_quest_2_akurasi_target": "\u2265 85% TERCAPAI (99.83%)"
+  "side_quest_akurasi": ">= 85% TERCAPAI (100.00%)",
+  "dataset_version": "v2 \u2014 dataset baru dari tim DS (7 fitur)"
 }

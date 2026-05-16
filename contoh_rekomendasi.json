@@ -1,207 +1,76 @@
 {
   "pengguna_A": {
     "ringkasan": {
-      "income_bulanan": 5000000,
-      "total_pengeluaran": 3000000,
+      "tabungan_total": 15000000,
+      "total_pengeluaran_bulanan": 3500000,
       "tabungan_bulanan": 1000000,
-      "rasio_tabungan_pct": 20.0
+      "income_bulanan": 5000000
     },
-    "rekomendasi_anggaran": {
-      "Food": {
-        "batas_ideal": 750000,
-        "aktual": 800000,
-        "selisih": 50000,
-        "status": "Over",
-        "persen_income": 16.0
-      },
-      "Grocery": {
-        "batas_ideal": 500000,
-        "aktual": 400000,
-        "selisih": -100000,
-        "status": "Aman",
-        "persen_income": 8.0
-      },
-      "Transport": {
-        "batas_ideal": 500000,
-        "aktual": 500000,
-        "selisih": 0,
-        "status": "Aman",
-        "persen_income": 10.0
-      },
-      "Bills": {
-        "batas_ideal": 500000,
-        "aktual": 300000,
-        "selisih": -200000,
-        "status": "Aman",
-        "persen_income": 6.0
-      },
-      "Healthcare": {
-        "batas_ideal": 250000,
-        "aktual": 100000,
-        "selisih": -150000,
-        "status": "Aman",
-        "persen_income": 2.0
-      },
-      "Entertainment": {
-        "batas_ideal": 250000,
-        "aktual": 400000,
-        "selisih": 150000,
-        "status": "Over",
-        "persen_income": 8.0
-      },
-      "Online Shopping": {
-        "batas_ideal": 250000,
-        "aktual": 300000,
-        "selisih": 50000,
-        "status": "Over",
-        "persen_income": 6.0
-      },
-      "Clothing": {
-        "batas_ideal": 250000,
-        "aktual": 200000,
-        "selisih": -50000,
-        "status": "Aman",
-        "persen_income": 4.0
-      },
-      "Electronics": {
-        "batas_ideal": 250000,
-        "aktual": 0,
-        "selisih": -250000,
-        "status": "Aman",
-        "persen_income": 0.0
-      },
-      "Travel": {
-        "batas_ideal": 250000,
-        "aktual": 0,
-        "selisih": -250000,
-        "status": "Aman",
-        "persen_income": 0.0
-      }
+    "blr": {
+      "nilai": 4.29,
+      "kondisi": "Cukup sehat"
     },
-    "kategori_over_budget": [
-      "Food",
-      "Entertainment",
-      "Online Shopping"
-    ],
-    "kesiapan_investasi": {
-      "skor": 80,
-      "label": "Siap Investasi",
-      "profil_risiko": "moderat",
-      "detail_skor": {
-        "skor_tabungan": 40,
-        "skor_sisa_income": 20,
-        "skor_efisiensi": 10,
-        "skor_usia": 10
-      }
+    "sr": {
+      "nilai_pct": 20.0,
+      "kondisi": "Cukup"
     },
+    "status_kesiapan": "Ready",
+    "profil_risiko": "moderat",
     "rekomendasi_instrumen": [
       "Reksa Dana Pasar Uang",
       "Reksa Dana Pendapatan Tetap",
       "Obligasi Negara Ritel (ORI / SBR)",
       "P2P Lending terpercaya (OJK)"
-    ]
+    ],
+    "pesan": "Kondisi keuangan sehat. Siap untuk mulai berinvestasi sesuai profil risiko."
   },
   "pengguna_B": {
     "ringkasan": {
-      "income_bulanan": 2000000,
-      "total_pengeluaran": 2150000,
+      "tabungan_total": 1500000,
+      "total_pengeluaran_bulanan": 1800000,
       "tabungan_bulanan": 100000,
-      "rasio_tabungan_pct": 5.0
+      "income_bulanan": 2000000
     },
-    "rekomendasi_anggaran": {
-      "Food": {
-        "batas_ideal": 300000,
-        "aktual": 700000,
-        "selisih": 400000,
-        "status": "Over",
-        "persen_income": 35.0
-      },
-      "Grocery": {
-        "batas_ideal": 200000,
-        "aktual": 200000,
-        "selisih": 0,
-        "status": "Aman",
-        "persen_income": 10.0
-      },
-      "Transport": {
-        "batas_ideal": 200000,
-        "aktual": 300000,
-        "selisih": 100000,
-        "status": "Over",
-        "persen_income": 15.0
-      },
-      "Bills": {
-        "batas_ideal": 200000,
-        "aktual": 200000,
-        "selisih": 0,
-        "status": "Aman",
-        "persen_income": 10.0
-      },
-      "Healthcare": {
-        "batas_ideal": 100000,
-        "aktual": 50000,
-        "selisih": -50000,
-        "status": "Aman",
-        "persen_income": 2.5
-      },
-      "Entertainment": {
-        "batas_ideal": 100000,
-        "aktual": 300000,
-        "selisih": 200000,
-        "status": "Over",
-        "persen_income": 15.0
-      },
-      "Online Shopping": {
-        "batas_ideal": 100000,
-        "aktual": 250000,
-        "selisih": 150000,
-        "status": "Over",
-        "persen_income": 12.5
-      },
-      "Clothing": {
-        "batas_ideal": 100000,
-        "aktual": 150000,
-        "selisih": 50000,
-        "status": "Over",
-        "persen_income": 7.5
-      },
-      "Electronics": {
-        "batas_ideal": 100000,
-        "aktual": 0,
-        "selisih": -100000,
-        "status": "Aman",
-        "persen_income": 0.0
-      },
-      "Travel": {
-        "batas_ideal": 100000,
-        "aktual": 0,
-        "selisih": -100000,
-        "status": "Aman",
-        "persen_income": 0.0
-      }
+    "blr": {
+      "nilai": 0.83,
+      "kondisi": "Sangat rentan"
     },
-    "kategori_over_budget": [
-      "Food",
-      "Transport",
-      "Entertainment",
-      "Online Shopping",
-      "Clothing"
-    ],
-    "kesiapan_investasi": {
-      "skor": 20,
-      "label": "Belum Siap — Fokus Perbaiki Keuangan Dulu",
-      "profil_risiko": "konservatif",
-      "detail_skor": {
-        "skor_tabungan": 10,
-        "skor_sisa_income": 0,
-        "skor_efisiensi": 0,
-        "skor_usia": 10
-      }
+    "sr": {
+      "nilai_pct": 5.0,
+      "kondisi": "Kurang sehat"
     },
+    "status_kesiapan": "Not Ready",
+    "profil_risiko": "konservatif",
     "rekomendasi_instrumen": [
       "Tabungan berjangka / Deposito",
       "Obligasi Negara Ritel (ORI / SBR)",
       "Reksa Dana Pasar Uang"
-    ]
+    ],
+    "pesan": "Fokus dulu membangun dana darurat dan meningkatkan tabungan sebelum investasi."
+  },
+  "pengguna_C": {
+    "ringkasan": {
+      "tabungan_total": 80000000,
+      "total_pengeluaran_bulanan": 8000000,
+      "tabungan_bulanan": 4000000,
+      "income_bulanan": 15000000
+    },
+    "blr": {
+      "nilai": 10.0,
+      "kondisi": "Sangat siap"
+    },
+    "sr": {
+      "nilai_pct": 26.67,
+      "kondisi": "Baik"
+    },
+    "status_kesiapan": "Ready",
+    "profil_risiko": "agresif",
+    "rekomendasi_instrumen": [
+      "Reksa Dana Saham",
+      "Saham blue-chip (LQ45)",
+      "ETF / Index Fund",
+      "REITs (properti digital)"
+    ],
+    "pesan": "Kondisi keuangan sehat. Siap untuk mulai berinvestasi sesuai profil risiko."
   }
 }
